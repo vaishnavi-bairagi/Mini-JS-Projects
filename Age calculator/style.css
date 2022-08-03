@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=PT+Serif&family=Poppins&family=Raleway&family=Roboto:wght@300;400&family=Source+Serif+Pro&family=Vollkorn&family=Zilla+Slab:wght@300;400&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(233, 191, 191);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 500px; height: 400px;
+    background: rgba(227, 227, 227, 0.418);
+    box-shadow: inset 10px 10px 12px rgb(219, 218, 218),
+    2px 2px 4px rgba(239, 227, 227, 0.623);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inDays,.newBox{
+    width: 90%; height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.copy{
+    position: absolute;
+    top: 10%; left: 10%;
+    z-index: 100;
+    display: flex;
+
+}
+.btn, .btncontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.newWrapper{
+    margin-top: 30px;
+}
+input, .newBirthInput{
+    height: 40px; width: 60%;
+    align-self: center;
+    background : rgb(234, 233, 233);
+    border: none;
+}
+.newBirthInput, .newCurrentInput{
+    width: 80%;
+}
+input::placeholder{
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input:focus{
+    outline: 2px solid rgb(54, 120, 182);
+}
+button{
+    width: 130px; height: 40px;
+    font-size: 17px;
+    border: none;
+}
+.click,.yearClickBtn{
+    background: rgb(30, 99, 189);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.reset,.yearResetBtn{
+    background: rgb(213, 20, 20);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.para{
+    font-size: 26px;
+}
+.option{
+    position: relative;
+    top: 45%; left: 25%;
+    border: 1p solid #000;
+    width: 90%;
+}
+.opt-btn{
+    width: 45%;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid rgb(26, 121, 245);
+    font-family:'Roboto', sans-serif;;
+}
+button:hover{
+    cursor: pointer;
+}
+.title{
+    position: relative;
+    top: -40%;
+}
+.resultText{
+    width: 100%;
+    height:90px;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    padding-top: 40px;
+}
+.backBtn{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
